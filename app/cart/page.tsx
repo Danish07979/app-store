@@ -15,8 +15,8 @@ export default function CartPage() {
 
 
 
-        <div className="flex gap-6 ">
-            <Link href="/" className="flex color-red-700 ">back to the page</Link>
+        <div className=" h-fit flex-justify-between items-center w-fit gap-9 m-12 ">
+            <Link href="/" className="flex text-white h-fit bg-black p-2 rounded-md">back to the page</Link>
 
 
             {CartItems.map((item) => {
