@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Silver Bracelet",
+    "category": "bracelet",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1576172746322-0c0e9b9d5d6b?auto=format&fit=crop&w=400&q=80",
+    "description": "A minimalist silver bracelet with a sleek finish."
+  },
+  {
+    "id": 2,
+    "name": "Gold Necklace",
+    "category": "necklace",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1600180758898-13c8b7d2f5e5?auto=format&fit=crop&w=400&q=80",
+    "description": "Delicate gold chain necklace for everyday elegance."
+  },
+  {
+    "id": 3,
+    "name": "Pearl Ring",
+    "category": "ring",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1609943312922-5bfa7c0c0e79?auto=format&fit=crop&w=400&q=80",
+    "description": "Classic pearl ring with a timeless look."
+  },
+  {
+    "id": 4,
+    "name": "Anklet Charm",
+    "category": "anklet",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1585679362541-8a0bf4b5fd21?auto=format&fit=crop&w=400&q=80",
+    "description": "An elegant anklet with a subtle charm."
+  },
+  {
+    "id": 5,
+    "name": "Nose Ring",
+    "category": "nose ring",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1585322107612-0ca6c5f7f3c3?auto=format&fit=crop&w=400&q=80",
+    "description": "Minimalist nose ring for a sleek look."
+  },
+  {
+    "id": 6,
+    "name": "Stud Earrings",
+    "category": "earrings",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1577744378443-90ac7df8f7a7?auto=format&fit=crop&w=400&q=80",
+    "description": "Simple stud earrings in polished steel."
+  },
+  {
+    "id": 7,
+    "name": "Modern Watch",
+    "category": "watch",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1512412046875-2c9d7d5a0da4?auto=format&fit=crop&w=400&q=80",
+    "description": "Sleek modern watch with a soft matte finish."
+  }
+]
