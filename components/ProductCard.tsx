@@ -1,3 +1,9 @@
+"use client";
+
+import { useCart, type Product } from "@/context/CartContext";
+
+
+
 interface ProductProps {
 
     id: number;
@@ -7,6 +13,18 @@ interface ProductProps {
 }
 
 export function ProductCard({ id, image_url, title, price }: ProductProps) {
+
+
+
+    const { addToCart } = useCart();
+    const product: Product = {
+        id: id,
+        name: title,
+        price: price,
+        image_path: image_url,
+    };
+
+
 
     return (<div
         key={id}
@@ -27,5 +45,9 @@ export function ProductCard({ id, image_url, title, price }: ProductProps) {
                 ${Number(price).toFixed(2)}
             </p>
         </div>
+        <button
+            onClick={() => addToCart(product)}>Add to cart</button>
+
     </div>)
+
 }
